@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/19-196053_bernie-sanders-face-png-bernie-sanders-black-and.png"
+        type="image/x-icon">
+    <title>YOU SPIN BERNIE RIGHT ROUND</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+
+        body {
+            background-image: url(img/giphy.gif);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            width: 100%;
+            background-size: contain;
+        }
+
+        img {
+            width: 100px;
+            -webkit-animation: spin 4s linear infinite;
+            -moz-animation: spin 4s linear infinite;
+            animation: spin 4s linear infinite;
+            transition: 0.3;
+        }
+
+        @-moz-keyframes spin {
+            100% {
+                -moz-transform: rotate(360deg);
+            }
+        }
+
+        @-webkit-keyframes spin {
+            100% {
+                -webkit-transform: rotate(360deg);
+            }
+        }
+
+        @keyframes spin {
+            100% {
+                -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+
+        }
+    </style>
+</head>
+
+<body>
+    <audio autoplay loop>
+        <source src="img/spinmerightround.mp3" preload="auto">
+    </audio>
+    <img src="img/19-196053_bernie-sanders-face-png-bernie-sanders-black-and.png" alt="">
+</body>
+
+</html>
